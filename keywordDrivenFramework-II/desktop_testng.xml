@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Lenskart_Automation" parallel="false">	
+	<parameter name = "flag" value="php"/>
+	<test name="Mobile Sanity Test Suite">
+		<classes>
+			<class name="lenskart.tests.TestSuiteClass" />
+			<class name="lenskart.tests.DesktopSite_SequentialExecution" /> 
+		</classes>
+	</test>
+</suite>
